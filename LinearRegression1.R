@@ -1,5 +1,7 @@
+### Linear Regressions 2nd Problem ####
 rm(list=ls())
-cpiu<-read.csv(file="cpiu-long.csv", header=TRUE, sep=",")
+setwd("XXX") ### Set the directory
+cpiu<-read.csv(file="LinearRegressionData.csv", header=TRUE, sep=",")
 cpiu <-cpiu[-1:-2,] #removing first two row
 cpiu <-cpiu[,-1] #removing first column
 
