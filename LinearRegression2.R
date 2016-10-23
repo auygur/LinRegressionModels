@@ -1,7 +1,7 @@
 ### Linear Regressions HW4####
 setwd("XXX") ### Set the directory
 rm(list=ls())
-housing<-read.csv(file="Housing.csv", header=TRUE,sep = ",")
+housing<-read.csv(file="LinearRegressionData2.csv", header=TRUE,sep = ",")
 housing<-housing[,-1]  ##getting rid of first column
 
 
