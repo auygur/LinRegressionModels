@@ -1,4 +1,4 @@
-### Linear Regressions HW4####
+### Linear Regressions 2nd Problem ####
 setwd("XXX") ### Set the directory
 rm(list=ls())
 housing<-read.csv(file="LinearRegressionData2.csv", header=TRUE,sep = ",")
